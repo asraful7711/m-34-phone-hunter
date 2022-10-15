@@ -131,6 +131,10 @@ const displayInmodal = (phoneDetail) => {
                     <h3 class="text-lg font-semibold text-blue-300">Others</h3>
                     <h4> bluetooth : ${phoneDetail.others?.Bluetooth ? phoneDetail.others.Bluetooth : 'N/A'}</h4>
                     <p> GPS : ${phoneDetail.others?.GPS ? phoneDetail.others.GPS : 'N/A'}</p>
+                    <p> NFC : ${phoneDetail.others?.NFC ? phoneDetail.others.NFC : 'N/A'}</p>
+                    <p> RADIO : ${phoneDetail.others?.Radio ? phoneDetail.others.Radio : 'N/A'}</p>
+                    <p> USB : ${phoneDetail.others?.USB ? phoneDetail.others.USB : 'N/A'}</p>
+                    <p> WLAN : ${phoneDetail.others?.WLAN ? phoneDetail.others.WLAN : 'N/A'}</p>
                     
                     <p> memory : ${phoneDetail.mainFeatures?.memory}</p>
                     </div>
